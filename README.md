@@ -6,7 +6,8 @@
 - Chạy serve: bin/cake server
 - Sữa lại file app_local.php:
 ``Docker file
- 'Datasources' => [
+
+    'Datasources' => [
         'default' => [
             'host' => 'localhost',
             'username' => 'root',
@@ -30,5 +31,6 @@
             'url' => env('DATABASE_TEST_URL', 'sqlite://127.0.0.1/tests.sqlite'),
         ],
     ],
-    
+
+
 ``
