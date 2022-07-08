@@ -80,3 +80,4 @@
             //'init' => ['SET GLOBAL innodb_stats_on_metadata = 0'],
         ],
 ```
+-    Tạo trang login: composer require "cakephp/authentication:^2.0"
