@@ -5,7 +5,7 @@
 - Tạo một teamplates: bin\cake bake template posts 
 - Chạy serve: bin/cake server
 - Sữa lại file app_local.php:
-``Docker file
+```Dockerfile
 
     'Datasources' => [
         'default' => [
@@ -33,9 +33,9 @@
     ],
 
 
-``
+```
 -    sữa lại app.php:
-``Docker file
+```Dockerfile
   'default' => [
             'className' => Connection::class,
             'driver' => Mysql::class,
@@ -79,5 +79,4 @@
              */
             //'init' => ['SET GLOBAL innodb_stats_on_metadata = 0'],
         ],
-
-``
+```
